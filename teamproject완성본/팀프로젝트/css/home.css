@@ -1,0 +1,248 @@
+*{margin: 0; padding:0;
+  font-family: 'Jua', sans-serif;
+}
+body{
+  background-color:rgba(255, 182, 193, 0.326);
+}
+/*전체*/
+.contanier{
+  width: 1500px;
+  height: 2000px;
+  margin: 0 auto;
+}
+/*헤더*/
+header{
+  width: 1500px; height: 200px;
+  background-image:url(../images/header_back1.jpg);
+}
+      /*헤더로고*/
+      #header_logo{
+    float: left;
+    width: 600px; height: 200px;
+      }
+        #header_logo > a > img {
+          width: 400px; height: 110px;
+          margin: 40px 40px 40px 60px;
+        }
+      /*헤더 네비*/
+      #header_navi{
+        float: right;
+        width: 900px; height: 200px;
+      }
+        /*헤더사이드*/
+        #header_navi > li {
+          display: inline-block;
+          position: relative;
+          top: 40px;
+          left: 100px;
+        }
+        #header_navi > li > a {
+          display: inline-block;
+          position: relative;
+          padding-bottom: 19px;
+          margin: 50px;
+          bottom: 30px;
+          left: 100px;
+        }
+        #header_navi > li > a > img {
+          width: 50px; height: 50px;
+        }
+        #header_navi > li > a > span {
+          position: absolute;
+          left: 50%;
+          line-height: 1.4em;
+          white-space: nowrap;
+          transform: translate(-50%, 0);
+          top: 50px;
+          color: black;
+        }
+/*메뉴검색*/
+#navigation{
+  clear: both;
+  height: 100px;
+  background-color: white;
+  z-index: 5;
+}
+        /*네비*/
+        nav{
+          float: left;
+          width: 1200px;  height: 100px;
+        }
+        ul{
+          list-style: none;
+        }
+        #sideBar>li{
+          width:230px;  height: 100px;
+          float: left;
+          line-height: 3.4;
+          text-align: center;
+          font-size: 1.8em;
+        }
+        #sideBar>li>a{
+          text-decoration: none;
+          color: rgb(0, 8, 15);
+        }
+        #sideBar>li>a:hover{
+          border-bottom: 3px solid  rgb(250, 187, 247);
+         
+        }
+        #sideBar>li ul{
+          position: absolute;
+          display: none;
+          background-color:  rgb(255,255,255,0.6);
+          margin: 0;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 2.0;
+          padding: 10px;
+          color: black;
+          width: 210px;
+        }
+        #sideBar>li ul a{
+          text-decoration: none;
+          color: black;
+ 
+        }
+        #sideBar>li:hover>ul{
+          display: block;
+          z-index: 10;
+        }
+        
+
+
+        /*서치*/
+        #search{
+          float: left;
+          width: 300px; height: 100px;
+        }
+        #search input{
+          border: 0;
+          width: 200px;
+          padding: 10px;
+          margin: 30px 10px 30px 10px;
+          border-bottom: 1px solid rgb(250, 187, 247);
+          outline: none;
+        }
+        #search button{
+          border: 0;
+          width: 50px; height: 50px;
+          background-color: rgb(250, 187, 247);
+          cursor: pointer;
+          color: aliceblue;
+
+        }
+/*이미지슬라이드*/
+#image_slide{
+  overflow: hidden;
+  height: 600px; 
+  position: relative;  
+}
+ul{list-style: none;}
+#sl{
+  /* left: -3000px; */
+  width: 7500px;
+  position: absolute;  
+  margin: 0;
+  transition: all 0.5s ease-out;
+  
+}
+#sl > li{
+  float: left;
+}
+.sli{
+  width: 1500px; 
+  height: 600px;
+  
+}
+#move{
+  position: absolute;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 20px;
+  top: 45%;
+  font-size: 3.3em;
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+   left: 1455px;
+   top: 5px;
+} 
+#atag{
+  text-decoration: none;
+}
+#atag:hover{
+  color: brown;
+}
+/*메인*/ 
+section{
+   height: 600px;
+}
+ 
+        /*베너*/
+        #banner{
+          height: 300px;
+        }
+        /*바로가기*/
+        .link{
+          float: left;
+          width: 350px; height: 250px;
+          margin: 10px;
+        }
+        .link > a > img {
+          position: relative;
+          left: 50px;
+          width: 270px; height: 270px;
+        }
+        
+        
+/*푸터*/
+footer{
+  clear: both;
+  height: 100px;
+}
+
+#sns > a {
+  display: inline-block;
+  text-decoration: none;
+  color: #808080;
+  font-size: 15px;
+  padding: 0px 0px 5px 0px;
+}
+
+#sns a:visited{
+  color: #808080;
+}
+
+
+        /*카피라이트*/
+        #copyright{
+          float: left;
+          width: 750px; height: 100px;
+          background-color: white;
+        }
+        #copyright > p > span {
+          color: black;
+          font-size: small;
+        }
+        
+        /*텍스트박스*/
+        #footer_text{
+          float: left;
+          width: 750px; height: 100px;
+          background-color:white;
+          margin: 0 auto;
+        }
+
+        #footer_text > a > img{
+         display: block;
+         margin: 5px 565px;
+        }
+
+        #footer_sns > a > img{
+          float: right;
+          margin: 0px 0px 5px 5px;
+          padding: 5px 0px 0px 0px;
+        }

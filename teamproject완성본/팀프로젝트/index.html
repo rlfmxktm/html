@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/kiosk.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="contanier">
+ <!--헤더-->
+  <header>
+  <!--헤더로고-->
+    <div id="header_logo">
+      <a href="#"><img src="images/baskinrobbins.png"></a>
+    </div>
+       <!--side-->
+       <ul id="header_navi">
+         <li><a href="#"><img src="images/loginPassword.png"><span>로그인</span></a></li>
+         <li><a href="#"><img src="images/loginJoin.png"><span>회원가입</span></a></li>
+         <li><a href="#"><img src="images/loginMember.png"><span>My Page</span></a></li>
+         <li><a href="#"><img src="images/loginCustomer.png"><span>고객센터</span></a></li>
+       </ul>
+    </header>
+
+    <div id="navigation">
+      <!--네비-->
+      <nav>
+       <ul id="sideBar">
+         <li>
+           <a href="#"> menu</a>
+           <ul>
+             <li><a href="#">아이스크림</a></li>
+             <li><a href="#">아이스크림 케이크</a></li>
+             <li><a href="#">음료</a></li>
+             <li><a href="#">커피</a></li>
+             <li><a href="#">디저트</a></li>
+           </ul>
+         </li>
+         <li>
+           <a href="#" style="font-size: medium;">영양성분 및 알레르기</a>
+           <ul>
+             <li><a href="#">아이스크림</a></li>
+             <li><a href="#">음료</a></li>
+             <li><a href="#">커피</a></li>
+             <li>&nbsp</li>
+             <li>&nbsp</li>
+           </ul>
+         </li>
+         <li>
+           <a href="#">event</a>
+           <ul>
+             <li><a href="#">진행중이벤트</a></li>
+             <li><a href="#">당첨자발표</a></li>
+             <li>&nbsp</li>
+             <li>&nbsp</li>
+             <li>&nbsp</li>
+           </ul>
+         </li>
+         <li>
+           <a href="#">store</a>
+           <ul>
+             <li><a href="#">매장찾기</a></li>
+             <li><a href="#">고객센터</a></li>
+             <li><a href="#">단체주문</a></li>
+             <li>&nbsp</li>
+             <li>&nbsp</li>
+           </ul>
+         </li>
+         <li>
+           <a href="#">About</a>
+           <ul>
+             <li><a href="#">공지사항</a></li>
+             <li><a href="#">보도자료</a></li>
+             <li><a href="#">채용정보</a></li>
+             <li><a href="#">점포개설문의</a></li>
+             <li><a href="#">cont</a></li>
+           </ul>
+         </li>
+       </ul>
+     </nav>
+
+     <div id="search">
+    <a href="#"><input type="text" placeholder="검색하세요"> <button type="submit">검색</a></button>
+     </div>
+
+   </div>
+
+   <!--이미지슬라이드-->
+   <div id="image_slide">
+    <ul id="sl">
+      <li>
+        <img class="sli" src="images/img_banner_1.jpg">
+      </li>
+      <li>
+        <img class="sli" src="images/31_1.jpg">
+      </li>
+      <li>
+        <img class="sli" src="images/img_banner_4.jpg">
+      </li>
+      <li>
+        <img class="sli" src="images/240B614D5790673208.jpg">
+      </li>
+      <li>
+        <img class="sli" src="images/BAE M.png">
+      </li>      
+    </ul>
+    <div id="move">
+      <a href="#" id="atag" class="prev" > < </a>
+      <a href="#" id="atag" class="next" > > </a>
+    </div>
+   </div>
+
+ <!--메인-->
+ <section >
+    <!--메뉴선택-->
+    <div id="contens">
+      <div id="tab_box">
+      
+        <input type="radio" id="tab1" name="tabs" checked>
+        <label for="tab1">아이스크림</label>
+        <input type="radio" id="tab2" name="tabs">
+        <label for="tab2">케이크</label>
+        <input type="radio" id="tab3" name="tabs">
+        <label for="tab3">음료</label>
+
+
+<!--아이스크림-->
+        <div id="notice" class="tabContent">
+
+          <div class="icecream">
+            <img src="images/그린티.png">
+            <h2>그린티</h2>
+            <button id="a1" type="submit">구매</button>
+            <div class="caption">
+              <h2>#그린티 #녹차</h2>
+              <p>가격: 3,800원</p>
+            </div>
+          </div>
+          <div class="icecream">
+            <img src="images/사랑에빠진딸기.png">
+            <h2>사랑에빠진 딸기</h2>
+            <button id="a2" type="submit">구매</button>
+            <div class="caption">
+              <h2>#딸기 #치즈</h2>
+              <p>가격: 3,800원</p>
+            </div>
+          </div>
+          <div class="icecream">
+            <img src="images/아몬드봉봉.png">
+            <h2>아몬드봉봉</h2>
+            <button id="a3" type="submit">구매</button>
+            <div class="caption">
+              <h2>#아몬드 #초콜릿</h2>
+              <p>가격: 3,800원</p>
+            </div>
+          </div>
+          <div class="icecream">
+            <img src="images/엄마는외계인.png">
+            <h2>엄마는외계인</h2>
+            <button id="a4" type="submit">구매</button>
+            <div class="caption">
+              <h2>#초콜릿 #초코볼</h2>
+              <p>가격: 3,800원</p>
+            </div>
+          </div>
+          <div class="icecream">
+            <img src="images/초코나무숲.png">
+            <h2>초코나무숲</h2>
+            <button id="a5" type="submit">구매</button>
+            <div class="caption">
+              <h2>#그린티 #초콜릿</h2>
+              <p>가격: 3,800원</p>
+            </div>
+          </div>
+          <div class="icecream">
+            <img src="images/뉴욕치즈케이크.png">
+            <h2>뉴욕치즈케이크</h2>
+            <button id="a6" type="submit">구매</button>
+            <div class="caption">
+              <h2>#치즈 #치즈케이크</h2>
+              <p>가격: 3,800원</p>
+            </div>
+          </div>
+  
+        </div>
+
+<!--아이스크림케이크-->
+        <div id="gallery" class="tabContent">
+
+            <div class="cake">
+              <img src="images/듀얼와츄원케이크.png">
+              <h2><듀얼와츄원케이크></h2>
+              <button id="b1" type="submit">구매</button>
+              <div class="caption">
+                <h2>#엄마는외계인 </h2>
+                <p>가격: 25,000</p>
+              </div>
+            </div>
+            <div class="cake">
+              <img src="images/해피버스데이케이크.png" >
+              <h2><해피버스데이케이크></h2>
+              <button id="b2" type="submit">구매</button>
+              <div class="caption">
+                <h2>#해피버스데이 #미니</h2>
+                <p>가격: 25,000</p>
+              </div>
+            </div>
+            <div class="cake">
+              <img src="images/어피치케이크.png" >
+              <h2><어피치케이크></h2>
+              <button id="b3" type="submit">구매</button>
+              <div class="caption">
+                <h2>#시크릿어피치</h2>
+                <p>가격: 25,000</p>
+              </div>
+            </div>
+            <div class="cake">
+              <img src="images/마카롱케이크.png" >
+              <h2><마카롱케이크></h2>
+              <button id="b4" type="submit">구매</button>
+              <div class="caption">
+                <h2>#마카롱 #케이크</h2>
+                <p>가격: 25,000</p>
+              </div>
+            </div>
+            <div class="cake">
+              <img src="images/라이언 케이크.png" >
+              <h2><라이언케이크></h2>
+              <button id="b5" type="submit">구매</button>
+              <div class="caption">
+                <h2>#시크릿라이언</h2>
+                <p>가격: 25,000</p>
+              </div>
+            </div>
+            <div class="cake">
+              <img src="images/뚱랑이케이크.png" >
+              <h2><뚱랑이케이크></h2>
+              <button id="b6" type="submit">구매</button>
+              <div class="caption">
+                <h2>#뚱랑이 #호랑이</h2>
+                <p>가격: 25,000</p>
+              </div>
+            </div>
+        </div>
+
+<!--음료-->
+        <div id="gallery2" class="tabContent">
+          <div class="drink">
+            <img src="images/딸기연유라떼.png">
+            <h2>딸기연유라떼</h2>
+            <button id="c1" type="submit">구매</button>
+            <div class="caption">
+              <h2>#딸기 #연유</h2>
+              <p>가격: 3,500원</p>
+            </div>
+          </div>
+          <div class="drink">
+            <img src="images/아이스티.png">
+            <h2>아이스티</h2>
+            <button id="c2" type="submit">구매</button>
+            <div class="caption">
+              <h2>#아이스티 #복숭아</h2>
+              <p>가격: 3,500원</p>
+            </div>
+          </div>
+          <div class="drink">
+            <img src="images/엄마는외계인블라스트.png">
+            <h2>엄마는외계인블라스트</h2>
+            <button id="c3" type="submit">구매</button>
+            <div class="caption">
+              <h2>#초콜릿 #블라스트</h2>
+              <p>가격: 3,500원</p>
+            </div>
+          </div>
+          <div class="drink">
+            <img src="images/와츄원쉐이크.png">
+            <h2>와츄원쉐이크</h2>
+            <button id="c4" type="submit">구매</button>
+            <div class="caption">
+              <h2>#와츄원 #쉐이크</h2>
+              <p>가격: 3,500원</p>
+            </div>
+          </div>
+          <div class="drink">
+            <img src="images/카푸치노블라스트.png">
+            <h2>카푸치노블라스트</h2>
+            <button id="c5" type="submit">구매</button>
+            <div class="caption">
+              <h2>#카푸치노 #블라스트</h2>
+              <p>가격: 3,500원</p>
+            </div>
+          </div>
+          <div class="drink">
+            <img src="images/핫초코.png">
+            <h2>핫초코</h2>
+            <button id="c6" type="submit">구매</button>
+            <div class="caption">
+              <h2>#초코 #핫</h2>
+              <p>가격: 3,500원</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+       <div id="cart">
+          <div id="cartTitle">
+           <p> 장바구니</p>
+          </div >
+          <div id="cartTEXT">
+            <p id="aa1"></p>
+            <p id="aa2"></p>
+            <p id="aa3"></p>
+            <p id="aa4"></p>
+            <p id="aa5"></p>
+            <p id="aa6"></p>
+            <p id="bb1"></p>
+            <p id="bb2"></p>
+            <p id="bb3"></p>
+            <p id="bb4"></p>
+            <p id="bb5"></p>
+            <p id="bb6"></p>
+            <p id="cc1"></p>
+            <p id="cc2"></p>
+            <p id="cc3"></p>
+            <p id="cc4"></p>
+            <p id="cc5"></p>
+            <p id="cc6"></p> 
+          </div>
+          <div id="cartTEXT1">
+            <p id="aa1"></p>
+            <p id="aa2"></p>
+            <p id="aa3"></p>
+            <p id="aa4"></p>
+            <p id="aa5"></p>
+            <p id="aa6"></p>
+            <p id="bb1"></p>
+            <p id="bb2"></p>
+            <p id="bb3"></p>
+            <p id="bb4"></p>
+            <p id="bb5"></p>
+            <p id="bb6"></p>
+            <p id="cc1"></p>
+            <p id="cc2"></p>
+            <p id="cc3"></p>
+            <p id="cc4"></p>
+            <p id="cc5"></p>
+            <p id="cc6"></p>
+          </div>
+          <div id="cartTotal">
+            total : <input  id="to"type="text" placeholder="총 결제금액">
+           <button type="submit">구매하기</button>
+           <button  id="reset" type="reset">전체취소</button>
+          </div>
+        
+       </div>
+ </section>
+<!--배너-->
+<div id="banner">
+
+  <div class="link">
+    <a href="#"><img src="images/banner_delivery.png"></a>
+  </div>
+  <div class="link">
+    <a href="#"><img src="images/banner_delivery_bm.png"></a>
+  </div>
+  <div class="link">
+    <a href="#"><img src="images/banner_delivery_kakao.png"></a>
+  </div>
+  <div class="link">
+    <a href="#"><img src="images/banner_delivery_ygy.png"></a>
+  </div>
+
+</div>
+ <!--푸터-->
+ <footer>
+  <div id="copyright">
+    <div id="sns">
+    <a href="#" target="_blank">점포개설문의</a> |
+    <a href="#" target="_blank">채용문의</a> |
+    <a href="#" target="_blank">이용약관</a> |
+    <a href="#" target="_blank">개인정보처리방침</a>
+  </div>
+  <p>
+    <span>조  :  1조</span><br/>
+    <span>이메일 : asd1234@naver.com</span><br/>
+    <span>copyright 2022. team. All Rights Reserved.</span>
+  </p>
+  </div>
+  <div id="footer_text">
+    <a href="#"><img src="images/sns.png" width="50px"></a>
+  <div id="footer_sns">
+    <a href="#"><img src="images/face.png" width="60px"></a>
+    <a href="#"><img src="images/twi.png" width="60px"></a>
+    <a href="#"><img src="images/blog.png" width="60px"></a>
+    <a href="#"><img src="images/insta.png" width="60px"></a>
+    <a href="#"><img src="images/youtube.png" width="60px"></a>
+  </div>
+  </div>
+
+</footer>
+  </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
